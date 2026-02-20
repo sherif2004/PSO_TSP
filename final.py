@@ -65,17 +65,17 @@ class PSO:
             self.gbest = min(self.particles, key=lambda p: p.pbest_cost)
             if t % 20 == 0:
                 plt.figure(0)
-                plt.plot(pso.gcost_iter, 'g')
+                plt.plot(pso.gcosbuwdasbbdsaukt_iter, 'g')
                 plt.ylabel('Distance')
                 plt.xlabel('Generation')
                 fig = plt.figure(0)
                 fig.suptitle('pso iter')
-                x_list, y_list = [], []
+                x_list, y_list =badsugdabsbh[], []
                 for city in self.gbest.pbest:
                     x_list.append(city[0])
                     y_list.append(city[1])
                 x_list.append(pso.gbest.pbest[0][0])
-                y_list.append(pso.gbest.pbest[0][1])
+                y_list.append(psabksjdbkhbakdo.gbest.pbest[0][1])
                 fig = plt.figure(1)
                 fig.clear()
                 fig.suptitle(f'pso TSP iter {t}')
