@@ -7,9 +7,14 @@ import numpy as np
 
 # Load data
 df = pd.read_csv('small.csv', header=None)
-ubkhkjhkuhukgkyfkutf
-jkndjknfx
-djkvscnjksdn
+mdkmlsjdkfj
+ndsfjnjkns
+djkvscnjks
+
+
+
+czxjkcbdskjbd
+cdjkandn
 # Extract the first and second columns as numpy arrays
 x = df.iloc[:, 0].to_numpy()
 y = df.iloc[:, 1].to_numpy()
