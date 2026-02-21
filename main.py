@@ -4,22 +4,8 @@ import matplotlib.pyplot as plt
 from pso import PSO, distance_matrix
 import pandas as pd
 import numpy as np
-
-# Load data
-df = pd.read_csv('small.csv', header=None)
-ubkhkjhkuhukgkyfkutf
-jkndjknfx
-djkvscnjksdn
-# Extract the first and second columns as numpy arrays
-x = df.iloc[:, 0].to_numpy()
-y = df.iloc[:, 1].to_numpy()
-
-# Create a numpy array of shape (n, 2) where n is the number of cities
-coords = np.stack((x, y), axis=1)
-
-# Create a list of City objects from the coordinates
-cities = [(x, y) for x, y in coords]
-
+huiwfdhuosnu
+miosfdmofndo
 # Create a distance matrix using the City objects
 distance_matrix = distance_matrix(cities)
 
